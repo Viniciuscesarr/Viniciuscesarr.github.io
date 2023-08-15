@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    margin: 0;
+    background-color: rgb(132,225,173);
+}
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to top, rgb(26,92,56), rgb(41,146,87), rgb(60,217,131));
+    padding: 20px;
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    
+}
+#paragrafoprincipal{
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+a:hover{
+    color: black;
+    
+}
+main{
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    text-indent: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    text-align: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 4px 5px 8px rgba(0, 0, 0, 0.47);
+    max-width: 800px;
+    min-width: 320px;
+}
+h2{
+    font-size: 1.75em;
+    color: rgb(53,111,80);
+    font-family: 'idroid';
+}
+h3{
+    color: rgb(53,111,80);
+    background-image: linear-gradient(to right, rgb(200,236,215), white);
+    font-family: 'idroid';
+}
+a{
+    text-decoration: none;
+    color: rgb(9, 98, 9);
+}
+#bugdroid{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+footer > p{
+    margin: 0px;
+}
+#video{
+    text-align: center;
+    background-color: green;
+    margin: 0px -20px 0px -20px;
+    display: block;
+}
+#tituloc{
+    font-family: sans-serif;
+    color: white;
+}
+#cabeçalho{
+    margin: auto;
+    background-color: rgba(3, 118, 3, 0.83);
+    border-radius: 10px 10px 0 0 ;
+    
+}
+#extra{
+    background-color: rgba(132, 225, 172, 0.485);
+    margin: auto;
+    border-radius: 10px;
+}
+.colunas{
+    list-style-type: none;
+    list-style-position: inside;
+
+    
+    
+    
+    
+}
+img{
+    display: block;
+    margin: auto;
+}
+
+ul{
+    columns: 2;
+}
+
+
