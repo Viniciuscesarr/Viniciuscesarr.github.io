@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engrenagem</title>
+    <link rel="shortcut icon" href="engrengem-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/mobile.css" media="screen and (orientation: portrait)">
+</head>
+<body>
+    <header><h1>Engrenagem</h1></header>
+    <main>
+        <div id="menu">
+            <div id="cabeçalho">
+                <h2>Cáculo de Módulo</h2>
+            </div>
+            <div id="texto1">
+                <label for="idia">Diâmetro</label>
+                <input type="number" name="diametro" id="idia" step="0.1">
+            </div> <br>
+            <div id="texto2">
+                <label for="iden">N° Dentes:</label>
+                <input type="number" name="dentes" id="iden" step="1">
+            </div>
+            <div id="botaocaixa">
+                <input type="button" value="Calcular" id="botao" onclick="clicar()">
+            </div>
+            <div id="res">
+                <p>Resultado:</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Site criado por <strong><a href="https://viniciuscesar.github.io">@ViniciusCesar.</a></strong></p>
+    </footer>
+    <script src="engrenagem.js"></script>
+</body>
+</html>

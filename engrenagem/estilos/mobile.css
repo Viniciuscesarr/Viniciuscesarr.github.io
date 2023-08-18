@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: lightgray;
+    padding: 4px;
+    margin-bottom: 70px;
+}
+
+#menu{
+    margin: auto;
+    background-color: rgba(231, 227, 227, 0.693);
+    width: 310px;
+    height: 220px;
+    border-radius: 20px;
+}
+#cabeçalho{
+    width: 305px;
+    height: 40px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: orangered;
+    text-align: center;
+    padding: 2px;
+}
+#texto1{
+    padding: 10px;
+}
+#texto2{
+    padding-top: 5px;
+    padding-left: 10px;
+    margin-top: -15px;
+}
+#botao{
+    width: 100px;
+    height: 30px;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    
+}
+#botao:hover{
+    background-color: orangered;
+    transform: translate(-1.5px, -1.5px);
+    transition: transform 0.5s;
+    color: white;
+    border-color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: orangered;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+#res{
+    position: absolute;
+}
