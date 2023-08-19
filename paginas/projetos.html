@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="shortcut icon" href="../imagens/letra-v-minimalista.png" type="image/x-icon">
+    <style>
+        *{
+            background-color: black;
+            padding: 0;
+            margin: 0;
+        }
+        nav a{
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.3em;
+            
+        }
+        nav a:hover{
+            color: blue;
+        }
+        nav{
+            padding: 15px;
+            text-align: center;
+            box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.538);
+        }
+        @media screen and (orientation: portrait){
+            .projects{
+                background-color: darkgray;
+                width: 300px;
+                height: 300px;
+                margin: auto;
+                
+            }
+            #p1{
+                margin-top: 30px;
+                margin-bottom: 30px;
+                background-image: url('../imagens/bugdroid.png');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-color: white;
+                border-radius: 10px;
+                background-position: center bottom;
+            }
+            #rodape{
+                width: 300px;
+                background-color: green;
+                border-radius: 10px 10px 0px 0px;
+                height: 50px;
+                text-align: center;
+                color: white;
+                position: absolute;
+                font-size: 1em;
+                
+            }
+            #rodape h2{
+                margin-top: 5px;
+                background-color: green;
+                color: white;
+            }
+            #rodape h2:hover{
+                color: rgba(0, 0, 255, 0.578);
+            }
+
+        }
+        @media screen and (orientation: landscape){
+
+
+        }
+
+    </style>
+</head>
+<body>
+    <header><nav><a href="../index.html">Home</a></nav>
+    </header>
+    <main>
+        <section>
+            <div class="projects" id="p1">
+                <a href="../projetoandroid/android.html">
+                    <div id="rodape"><h2>Clique Aqui</h2>
+                    </div>
+                </a>
+            </div>
+            <div class="projects" id="p2"></div>
+            <div class="projects" id="p3"></div>
+        </section>
+    </main>
+</body>
+</html>
