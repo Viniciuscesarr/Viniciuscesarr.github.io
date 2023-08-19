@@ -6,7 +6,7 @@
     <title>Projetos</title>
     <link rel="shortcut icon" href="../imagens/letra-v-minimalista.png" type="image/x-icon">
     <style>
-        *{
+        body{
             background-color: black;
             padding: 0;
             margin: 0;
@@ -66,11 +66,29 @@
             #p2{
                 border-radius: 10px;
                 background-color: white;
+                text-align: center;
             }
             #rodape2{
+                background-color: orange;
+                height: 50px;
                 border-radius: 10px 10px 0px 0px;
             }
+            #p2 > h2{
+                margin-top: 80px;
+                font-size: 2em;
+                text-align: center;
+            }
+            #rodape2 h2{
+                padding: 10px;
+                color: white;
 
+            }
+            #rodape2 h2:hover{
+                color: rgba(0, 0, 255, 0.714);
+            }
+            a{
+                text-decoration: none;
+            }
         }
         @media screen and (orientation: landscape){
 
@@ -85,17 +103,20 @@
     <main>
         <section>
             <div class="projects" id="p1">
-                <a href="../projetoandroid/android.html">
+                <a target="_blank" href="../projetoandroid/android.html">
                     <div id="rodape"><h2>Clique Aqui</h2>
                     </div>
                 </a>
             </div>
             <div class="projects" id="p2">
                 <div id="rodape2">
-                    Clique aqui
+                    <a target="_blank" href="../projetocordel/projetocordel.html">
+                        <h2>Clique aqui</h2>
+                    </a>
                 </div>
+                <h2>Projeto Cordel</h2>
             </div>
-            <div class="projects" id="p3"></div>
+            
         </section>
     </main>
 </body>
