@@ -18,6 +18,10 @@
         float: right;
         width: 70%;
     }
+    #botaosubmit{
+        width: 457px;
+    }
+    
 }
 @media screen and (min-width: 992px){
     body{
@@ -26,6 +30,12 @@
     section#login{
         width: 990px;
 
+    }
+    #botaosubmit{
+        width: 476px;
+    }
+    .botao{
+        width: 476px;
     }
     section#login > div#imagem{
         float: right;

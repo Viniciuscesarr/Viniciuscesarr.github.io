@@ -60,3 +60,39 @@ div#formulario p{
 #campo2{
     padding-left: 10px;
 }
+
+#botaosubmit{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#botaosubmit:hover{
+    background-color: #357572;
+    cursor: pointer;
+}
+.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+.botao > span{
+    font-size: 0.8em;
+}
+.botao:hover{
+    background-color: #5fcdc9;
+}
