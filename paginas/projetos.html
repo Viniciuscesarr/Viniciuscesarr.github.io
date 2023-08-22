@@ -6,92 +6,102 @@
     <title>Projetos</title>
     <link rel="shortcut icon" href="../imagens/letra-v-minimalista.png" type="image/x-icon">
     <style>
-        body{
-            background-color: black;
-            padding: 0;
-            margin: 0;
+        *{
+            margin: 0px;
+            padding: 0px;
         }
-        nav a{
-            color: white;
+        header{
             text-align: center;
-            text-decoration: none;
-            font-size: 1.3em;
-            
+            width: 100%;
         }
-        nav a:hover{
+        header a{
+            margin-top: 10px;
+           color: white;
+           font-size: 1.5em; 
+        }
+        header a:hover{
             color: blue;
         }
-        nav{
-            padding: 15px;
-            text-align: center;
-            box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.538);
+        body{
+            background-color: black;
         }
-        @media screen and (orientation: portrait){
-            .projects{
-                background-color: darkgray;
-                width: 300px;
-                height: 300px;
-                margin: auto;
-                
+        .projects{
+            background-color: darkgray;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            
+        }
+        #p1{
+            margin-top: 30px;
+            margin-bottom: 30px;
+            background-image: url('../imagens/bugdroid.png');
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-color: white;
+            border-radius: 10px;
+            background-position: center bottom;
+        }
+        #rodape{
+            width: 300px;
+            background-color: green;
+            border-radius: 10px 10px 0px 0px;
+            height: 50px;
+            text-align: center;
+            color: white;
+            position: absolute;
+            font-size: 1em;
+            
+        }
+        #rodape h2{
+            margin-top: 5px;
+            background-color: green;
+            color: white;
+        }
+        #rodape h2:hover{
+            color: rgba(0, 0, 255, 0.578);
+        }
+        #p2{
+            border-radius: 10px;
+            background-color: white;
+            text-align: center;
+        }
+        #rodape2{
+            background-color: orange;
+            height: 50px;
+            border-radius: 10px 10px 0px 0px;
+        }
+        #p2 > h2{
+            margin-top: 80px;
+            font-size: 2em;
+            text-align: center;
+        }
+        #rodape2 h2{
+            padding: 10px;
+            color: white;
+            width: 100%;
+
+        }
+        #rodape2 h2:hover{
+            color: rgba(0, 0, 255, 0.714);
+        }
+        a{
+            text-decoration: none;
+        }
+    
+        @media screen and (orientation: landscape){
+            header{
+                width: 100%;
+                padding: 5px;
+                text-align: center;
             }
             #p1{
-                margin-top: 30px;
-                margin-bottom: 30px;
-                background-image: url('../imagens/bugdroid.png');
-                background-size: 100%;
-                background-repeat: no-repeat;
-                background-color: white;
-                border-radius: 10px;
-                background-position: center bottom;
-            }
-            #rodape{
-                width: 300px;
-                background-color: green;
-                border-radius: 10px 10px 0px 0px;
-                height: 50px;
-                text-align: center;
-                color: white;
-                position: absolute;
-                font-size: 1em;
-                
-            }
-            #rodape h2{
-                margin-top: 5px;
-                background-color: green;
-                color: white;
-            }
-            #rodape h2:hover{
-                color: rgba(0, 0, 255, 0.578);
+                display: inline-block;
             }
             #p2{
-                border-radius: 10px;
-                background-color: white;
-                text-align: center;
+                display: inline-block;
+                
             }
-            #rodape2{
-                background-color: orange;
-                height: 50px;
-                border-radius: 10px 10px 0px 0px;
-            }
-            #p2 > h2{
-                margin-top: 80px;
-                font-size: 2em;
-                text-align: center;
-            }
-            #rodape2 h2{
-                padding: 10px;
-                color: white;
-
-            }
-            #rodape2 h2:hover{
-                color: rgba(0, 0, 255, 0.714);
-            }
-            a{
-                text-decoration: none;
-            }
-        }
-        @media screen and (orientation: landscape){
-
 
         }
 

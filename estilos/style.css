@@ -17,10 +17,16 @@ nav a{
 nav a:hover{
     color: blue;
 }
-img{
+header img{
     position: absolute;
     width: 90px;
     top: 2px;
     
+}
+section img{
+    position: absolute;
+    right: 200px;
+    top: 200px;
+    width: 300px;
 }
 

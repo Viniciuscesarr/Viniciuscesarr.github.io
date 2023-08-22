@@ -33,7 +33,10 @@ main{
 nav a:hover{
     color: blue;
 }
-img{
+header img{
     position: absolute;
     height: 50px;
+}
+section img{
+    display: none;
 }
