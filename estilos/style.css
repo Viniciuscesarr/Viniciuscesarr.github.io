@@ -1,32 +1,358 @@
 @charset "UTF-8";
-/*Geral*/
 
-* {
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    color: white;
+*{
     font-family: Arial, Helvetica, sans-serif;
-}
-
-nav a{
-    text-decoration: none;
-}
-
-
-nav a:hover{
-    color: blue;
-}
-header img{
-    position: absolute;
-    width: 90px;
-    top: 2px;
+    margin: 0px;
+    border: 0px;
+    
     
 }
-section img{
-    position: absolute;
-    right: 200px;
-    top: 200px;
-    width: 300px;
+html{
+    scroll-behavior: smooth;
 }
+body{background-color: #770F0F;}
 
+
+
+
+@media screen and (max-width: 768px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+        background-repeat: no-repeat;
+     }
+    a{  
+        position: relative;
+        left: -25px;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        display: block;
+        padding: 50px;
+    }
+    a li:hover{
+        color: red;
+    }
+    #principal{
+        display: block;
+    }
+    menu{
+        display: none;
+    }
+    header p{
+        display: inline;
+    }
+    header img{
+        width: 60px;
+    }
+    header{
+        position: fixed, top;
+        height: 40px;
+        box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.553);
+    }
+    #burguer{
+        width: 2em;
+        padding: 5px;
+        margin-right: -15px;
+        height: 2em;
+        float: right;
+        color: white;
+        display: inline-block;
+
+    }
+    li{
+        list-style: none;
+        text-align: center;
+        color: white;
+    }
+    .listas{
+        margin-top: -40px;
+    }
+    main h1{
+        color: white;
+        text-align: center;
+        text-indent: -250px;
+        margin: auto;
+        margin-top: 230px;
+    }
+    main p{
+        color: red;
+        margin-left: 37px;
+        font-size: 1.5em;
+    }
+    main img{
+        display: none;
+    }
+    section{
+        height: 100vh;
+        margin-top: 10px;
+    }
+    #sec1{
+        height: 100vh;
+    }
+    #sec2{
+        margin-top: 50vh;
+        background-color: #770F0F;
+        
+    }
+    #img1{
+        display: inline;
+        width: 100px;
+        margin-top: 30px;
+    }
+    .imagens{
+        text-align: center;
+    }
+    #sec2 a{
+        color: white;
+        margin-top: -20px;
+        font-size: 1.3em;
+        text-align: center;
+        margin-left: 40px;
+    }
+    #sec2 p{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+    }
+    #sec2 p:hover{
+        color: blue;
+    }
+    #img2{
+        width: 100px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+        background-repeat: no-repeat;
+    }
+    a{  
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px;
+    }
+    .listas{
+        top: 100px;
+    }
+    body{
+        width: 100%;
+    }
+    a li:hover{
+        color: red;
+    }
+    #principal{
+        color: white;
+        display: block;
+    }
+    menu{
+
+    }
+    header p{
+        display: inline;
+        
+    }
+    header img{
+        width: 90px;
+        display: inline-block;
+    }
+    header{
+        height: 60px;
+        box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.553);
+    }
+    #burguer{
+        width: 2em;
+        padding: 5px;
+        margin-right: -15px;
+        height: 2em;
+        float: right;
+        color: white;
+        display: none;
+
+    }
+    #itens{
+        position: absolute;
+        top: 10px;
+    }
+    li{
+        list-style: none;
+        color: white;
+    }
+    main h1{
+        color: white;
+        font-size: 2.5em;
+        padding-left: 150px;
+        margin: auto;
+        margin-top: 230px;
+    }
+    main p{
+        padding-left: 120px;
+        color: white;
+        margin-left: 37px;
+        font-size: 2em;
+        color: red;
+    }
+    main img{
+        display: none;
+    }
+    section{
+        height: 100vh;
+        margin-top: 10px;
+    }
+    #sec1{
+        height: 100vh;
+    }
+    #sec2{
+        border: 10px 10px black;
+        margin-top: 50vh;
+        background-color: #770F0F;  
+    }
+    #img1{
+        display: inline;
+        width: 100px;
+        margin-top: 30px;
+    }
+    .imagens{
+        text-align: center;
+    }
+    #sec2 a{
+        position: absolute;
+        right: 100px;
+        color: white;
+        margin-top: -20px;
+        font-size: 1.3em;
+        text-align: center;
+        margin-left: 40px;
+    }
+    #sec2 p{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+    }
+    #sec2 p:hover{
+        color: blue;
+    }
+    #img2{
+        width: 100px;
+    }
+}
+@media screen and (min-width: 1200px){
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+        background-repeat: no-repeat;
+    }
+    a{  
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px;
+    }
+    .listas{
+        top: 100px;
+    }
+    body{
+        width: 100%;
+    }
+    a li:hover{
+        color: red;
+    }
+    #principal{
+        color: white;
+        display: block;
+    }
+    menu{
+
+    }
+    header p{
+        display: inline;
+        
+    }
+    header img{
+        width: 90px;
+        display: inline-block;
+    }
+    header{
+        height: 60px;
+        box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.553);
+    }
+    #burguer{
+        width: 2em;
+        padding: 5px;
+        margin-right: -15px;
+        height: 2em;
+        float: right;
+        color: white;
+        display: none;
+
+    }
+    #itens{
+        position: absolute;
+        top: 10px;
+    }
+    li{
+        list-style: none;
+        color: white;
+    }
+    main h1{
+        color: white;
+        font-size: 2.5em;
+        padding-left: 150px;
+        margin: auto;
+        margin-top: 230px;
+    }
+    main p{
+        padding-left: 120px;
+        color: white;
+        margin-left: 37px;
+        font-size: 2em;
+        color: red;
+    }
+    main img{
+        width: 230px;
+        position: absolute;
+        right: 300px;
+        top: 250px;
+    }
+    section{
+        height: 100vh;
+        margin-top: 10px;
+    }
+    #sec1{
+        height: 100vh;
+    }
+    #sec2{
+        border: 10px 10px black;
+        margin-top: 50vh;
+        background-color: #770F0F;  
+    }
+    #img1{
+        display: inline;
+        width: 100px;
+        margin-top: 30px;
+    }
+    .imagens{
+        text-align: center;
+    }
+    #sec2 a{
+        color: white;
+        margin-top: -20px;
+        font-size: 1.3em;
+        text-align: center;
+        margin-left: 40px;
+    }
+    #sec2 p{
+        text-align: center;
+        color: white;
+        font-size: 1.5em;
+    }
+    #sec2 p:hover{
+        color: blue;
+    }
+    #img2{
+        width: 100px;
+    }
+}
