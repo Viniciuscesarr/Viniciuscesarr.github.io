@@ -20,7 +20,7 @@ body{background-color: #770F0F;}
         padding: 0px;
         width: 100vw;
         height: 100vh;
-        background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
         background-attachment: fixed;
         
      }
@@ -51,7 +51,6 @@ body{background-color: #770F0F;}
     header{
         position: fixed, top;
         height: 40px;
-        box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.553);
     }
     #burguer{
         width: 1em;
@@ -130,7 +129,7 @@ body{background-color: #770F0F;}
     body{
         width: 100vw;
         height: 100vh;
-        background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -165,7 +164,6 @@ body{background-color: #770F0F;}
     }
     header{
         height: 60px;
-        box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.553);
     }
     #burguer{
         width: 2em;
@@ -254,7 +252,7 @@ body{background-color: #770F0F;}
     body{
         width: 100vw;
         height: 100vh;
-        background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
@@ -289,7 +287,6 @@ body{background-color: #770F0F;}
     }
     header{
         height: 60px;
-        box-shadow: 1px 1px 4px rgba(255, 255, 255, 0.553);
     }
     #burguer{
         width: 2em;
