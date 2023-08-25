@@ -124,6 +124,53 @@ body{background-color: #770F0F;}
     #img2{
         width: 100px;
     }
+    #sec3img3{
+        padding: 110px;
+    }
+    #divsec3{
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+        padding-top:0px;
+        margin-top: 30px;
+    }
+    #skills{
+        width: 150px;
+        margin: auto;
+        border-radius: 10px;
+        background-color: #29323c;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #sec3img1{
+        width: 150px;
+        display: block;
+    }
+    #sec3img2{
+        width: 150px;
+        display: block;
+    }
+    #sec3img3{
+        width: 130px;
+        margin-top: -100px;
+        display: block;
+        margin-left: -100px;
+        
+    }
+    #sec3img4{
+        width: 130px;
+        display: block;
+        margin-top: -100px;
+        margin-left: 10px;
+        
+    }
+    #imgs{
+        margin: auto;
+        text-align: center;
+        
+
+    }
+
 }
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
@@ -247,7 +294,46 @@ body{background-color: #770F0F;}
         left: -415px;
         
     }
+    #divsec3{
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        padding-top: 30px;
+    }
+    #sec3img1{
+        width: 130px;
+        padding: 30px;
+    }
+    #sec3img2{
+        padding: 18px;
+        width: 155px;
+    }
+    #sec3img3{
+        width: 130px;
+        position: relative;
+        padding-bottom: 28px;
+        padding-left: 30px;
+    }
+    #sec3img4{
+        width: 150px;
+        position: relative;
+        padding-bottom: 20px;
+        padding-left: 50px;
+        
+    }
+    
+    #skills{
+        background-color: rgba(99, 97, 97, 0.284);
+        height: 200px;
+        width: 800px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 50px;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.527);
+        
+        }
 }
+
 @media screen and (min-width: 1200px){
     body{
         width: 100vw;
@@ -366,6 +452,47 @@ body{background-color: #770F0F;}
         color: blue;
     }
     #img2{
+        margin-top: 100px;
         width: 100px;
+    }
+    #sec3{
+        margin-top: 50vh;
+        height: 100vh;
+    }
+    #divsec3{
+        color: white;
+        text-align: center;
+        font-size: 2em;
+        padding-top: 30px;
+    }
+    #skills{
+        background-color: rgba(99, 97, 97, 0.284);
+        height: 200px;
+        width: 800px;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 50px;
+        box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.527);
+        
+    }
+    #sec3img1{
+        width: 130px;
+        padding: 30px;
+    }
+    #sec3img2{
+        padding: 18px;
+        width: 155px;
+    }
+    #sec3img3{
+        width: 130px;
+        position: absolute;
+        top: 2041px;
+        left: 760px;
+    }
+    #sec3img4{
+        width: 150px;
+        padding-left: 200px;
+        position: absolute;
+        top: 2035px;
     }
 }
