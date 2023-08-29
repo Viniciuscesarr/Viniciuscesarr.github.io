@@ -1,0 +1,67 @@
+@charset "UTF-8";
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+    
+}
+header{
+    text-align: center;
+    background-color: rgb(29, 29, 223);
+    color: white;
+    padding: 10px;
+
+}
+main{
+
+}
+#sec1{
+    padding: 20px;
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.564);
+
+}
+#nome{
+    margin-left: 20px;
+}
+#id_name{
+    margin-left: 18px;
+}
+#sobrenome{
+
+}
+#telefone{
+    margin-left: 10px;
+}
+#id_tel{
+    margin-left: 13px;
+}
+#cidade{
+    margin-left: 15px;
+}
+#id_city{
+    margin-left: 18px;
+}
+.inputs{
+    margin-top: 30px;
+    padding-left: 10px;
+    text-align: justify;
+    border-radius: 3px;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.592);
+}
+#button{
+    width: 250px;
+    border-radius: 3px;
+    background-color: rgb(8, 212, 8);
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    color: white;
+    
+}
+#button:hover{
+    background-color: green;
+}
