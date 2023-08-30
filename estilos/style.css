@@ -53,6 +53,7 @@ body{background-color: #770F0F;}
         height: 40px;
     }
     #burguer{
+        cursor: pointer;
         width: 1em;
         padding: 5px;
         padding-right: 20px;
